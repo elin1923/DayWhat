@@ -29,15 +29,31 @@ def converter(num):
 
 ######## EDIT THIS #############
 
+christmas = daterange(date(2017, 12, 23), date(2018, 1, 7))
+
 # Dictionary that holds all of the special dates/anomalies
 special = {
-    date(2018, 5, 7): "PD Day",
-    date(2018, 5, 14): "BBQ"
+    date(2017, 10, 6): "PD Day",
+    date(2017, 10, 9): "Thanksgiving",
+    date(2017, 11, 24): "PD Day",
+    christmas: "Christmas",
+    #exams
+    date(2018, 1, 31): "PD Day",
+    date(2018, 2, 19): "Family Day",
+    #march break
+    date(2018, 3, 30): "Good Friday",
+    date(2018, 4, 2): "Easter Monday",
+    date(2018, 5, 18): "PD Day",
+    date(2018, 5, 21): "Victoria Day",
+    date(2018, 6, 8): "PD Day",
+    #exams
+    date(2018, 6, 27): "Last Day of School!"
+
 }
 
 # Defining beginning and end dates for the generator
-beginning = date(2018, 4, 15)
-end = date(2018, 5, 15)
+beginning = date(2017, 9, 5)
+end = date(2018, 5, 28)
 
 ######## STOP EDITING #########
 
